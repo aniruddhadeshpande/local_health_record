@@ -1,0 +1,9 @@
+# Raw sample/user health files — never commit, never send to Claude
+samples/raw/
+data/
+*.db
+*.sqlite*
+.env
+*.gguf
+__pycache__/
+.venv/

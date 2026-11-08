@@ -1,0 +1,25 @@
+schema: spec-driven
+
+context: |
+  POC (Phase 1) of a local-first personal health report app. Keep it simple; do not over-engineer.
+  Hard constraints:
+  - Claude API must never receive personal information. Only age and gender may leave the machine,
+    together with masked/de-identified report data. A pre-send guard blocks any payload containing the
+    user's name, other known profile values or identifier patterns, and logs the masked payload for audit.
+  - Raw uploaded files are processed only by a local model (MedGemma 4B via Ollama) and deleted after processing.
+  - Encryption at rest for the database, extracted data, masked reports, memory and chat history.
+    The DB key is derived from the user's passphrase/PIN and never stored in plain text.
+  - Headless: Python API backend; separate thin client in plain HTML, CSS and jQuery.
+  - The local model sits behind a swappable LocalLLMClient interface (Phase 2 may point it at a company vLLM server).
+  - No TDD, no pytest or other test frameworks, no complex tooling. QA = manual checklist + curl scripts.
+  - MedGemma output is not a diagnosis; the UI shows a "not medical advice" disclaimer.
+
+rules:
+  proposal:
+    - State clearly what is out of scope for Phase 1
+  design:
+    - Contain an HLD section, an LLD section, and a data-flow diagram marking what stays local vs what goes to Claude
+    - Reference decisions.md for rationale instead of repeating long discussions
+  tasks:
+    - Write tasks as developer tickets, each small enough for one developer agent
+    - Include QA (manual checklist + curl) and security-test tasks; no automated test frameworks
