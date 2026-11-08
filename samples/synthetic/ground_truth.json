@@ -1,0 +1,367 @@
+{
+ "pii": {
+  "name": "Zorvan Quillbeck",
+  "mrn": "MRN-7731-ZQX",
+  "dob": "14/03/1987",
+  "phone": "+91 90000 47321",
+  "email": "zorvan.q@example.test",
+  "address": "42 Larkspur Lane, Pune 411001",
+  "lab": "Brightwell Diagnostics",
+  "doctor": "Dr. Meera Altanis"
+ },
+ "sample_ids": {
+  "R1": "SMP-55819",
+  "R2": "SMP-61204",
+  "R3": "SMP-70377"
+ },
+ "files": {
+  "R1_text.pdf": {
+   "date": "2026-02-10",
+   "tests": [
+    {
+     "name": "Hemoglobin",
+     "value": 13.8,
+     "unit": "g/dL",
+     "ref": "13.0-17.0"
+    },
+    {
+     "name": "WBC Count",
+     "value": 7.2,
+     "unit": "10^3/uL",
+     "ref": "4.0-11.0"
+    },
+    {
+     "name": "Platelet Count",
+     "value": 245,
+     "unit": "10^3/uL",
+     "ref": "150-410"
+    },
+    {
+     "name": "Fasting Glucose",
+     "value": 98,
+     "unit": "mg/dL",
+     "ref": "70-100"
+    },
+    {
+     "name": "HbA1c",
+     "value": 5.6,
+     "unit": "%",
+     "ref": "4.0-5.6"
+    },
+    {
+     "name": "Total Cholesterol",
+     "value": 192,
+     "unit": "mg/dL",
+     "ref": "0-200"
+    },
+    {
+     "name": "LDL Cholesterol",
+     "value": 118,
+     "unit": "mg/dL",
+     "ref": "0-100"
+    },
+    {
+     "name": "HDL Cholesterol",
+     "value": 46,
+     "unit": "mg/dL",
+     "ref": "40-60"
+    },
+    {
+     "name": "Triglycerides",
+     "value": 140,
+     "unit": "mg/dL",
+     "ref": "0-150"
+    },
+    {
+     "name": "Creatinine",
+     "value": 0.9,
+     "unit": "mg/dL",
+     "ref": "0.7-1.3"
+    },
+    {
+     "name": "TSH",
+     "value": 2.1,
+     "unit": "uIU/mL",
+     "ref": "0.4-4.0"
+    },
+    {
+     "name": "Vitamin D (25-OH)",
+     "value": 24,
+     "unit": "ng/mL",
+     "ref": "30-100"
+    }
+   ]
+  },
+  "R2_text.pdf": {
+   "date": "2026-05-18",
+   "tests": [
+    {
+     "name": "Hemoglobin",
+     "value": 13.1,
+     "unit": "g/dL",
+     "ref": "13.0-17.0"
+    },
+    {
+     "name": "WBC Count",
+     "value": 8.1,
+     "unit": "10^3/uL",
+     "ref": "4.0-11.0"
+    },
+    {
+     "name": "Platelet Count",
+     "value": 230,
+     "unit": "10^3/uL",
+     "ref": "150-410"
+    },
+    {
+     "name": "Fasting Glucose",
+     "value": 106,
+     "unit": "mg/dL",
+     "ref": "70-100"
+    },
+    {
+     "name": "HbA1c",
+     "value": 5.9,
+     "unit": "%",
+     "ref": "4.0-5.6"
+    },
+    {
+     "name": "Total Cholesterol",
+     "value": 208,
+     "unit": "mg/dL",
+     "ref": "0-200"
+    },
+    {
+     "name": "LDL Cholesterol",
+     "value": 129,
+     "unit": "mg/dL",
+     "ref": "0-100"
+    },
+    {
+     "name": "HDL Cholesterol",
+     "value": 43,
+     "unit": "mg/dL",
+     "ref": "40-60"
+    },
+    {
+     "name": "Triglycerides",
+     "value": 162,
+     "unit": "mg/dL",
+     "ref": "0-150"
+    },
+    {
+     "name": "Creatinine",
+     "value": 1.0,
+     "unit": "mg/dL",
+     "ref": "0.7-1.3"
+    },
+    {
+     "name": "TSH",
+     "value": 2.4,
+     "unit": "uIU/mL",
+     "ref": "0.4-4.0"
+    },
+    {
+     "name": "Vitamin D (25-OH)",
+     "value": 27,
+     "unit": "ng/mL",
+     "ref": "30-100"
+    }
+   ]
+  },
+  "R3_scan.jpg": {
+   "date": "2026-09-02",
+   "tests": [
+    {
+     "name": "Hemoglobin",
+     "value": 12.6,
+     "unit": "g/dL",
+     "ref": "13.0-17.0"
+    },
+    {
+     "name": "WBC Count",
+     "value": 9.4,
+     "unit": "10^3/uL",
+     "ref": "4.0-11.0"
+    },
+    {
+     "name": "Platelet Count",
+     "value": 212,
+     "unit": "10^3/uL",
+     "ref": "150-410"
+    },
+    {
+     "name": "Fasting Glucose",
+     "value": 112,
+     "unit": "mg/dL",
+     "ref": "70-100"
+    },
+    {
+     "name": "HbA1c",
+     "value": 6.2,
+     "unit": "%",
+     "ref": "4.0-5.6"
+    },
+    {
+     "name": "Total Cholesterol",
+     "value": 221,
+     "unit": "mg/dL",
+     "ref": "0-200"
+    },
+    {
+     "name": "LDL Cholesterol",
+     "value": 141,
+     "unit": "mg/dL",
+     "ref": "0-100"
+    },
+    {
+     "name": "HDL Cholesterol",
+     "value": 41,
+     "unit": "mg/dL",
+     "ref": "40-60"
+    },
+    {
+     "name": "Triglycerides",
+     "value": 175,
+     "unit": "mg/dL",
+     "ref": "0-150"
+    },
+    {
+     "name": "Creatinine",
+     "value": 1.0,
+     "unit": "mg/dL",
+     "ref": "0.7-1.3"
+    },
+    {
+     "name": "TSH",
+     "value": 2.8,
+     "unit": "uIU/mL",
+     "ref": "0.4-4.0"
+    },
+    {
+     "name": "Vitamin D (25-OH)",
+     "value": 31,
+     "unit": "ng/mL",
+     "ref": "30-100"
+    }
+   ]
+  },
+  "R4_scan.pdf": {
+   "date": "2026-09-02",
+   "tests": [
+    {
+     "name": "Hemoglobin",
+     "value": 12.6,
+     "unit": "g/dL",
+     "ref": "13.0-17.0"
+    },
+    {
+     "name": "WBC Count",
+     "value": 9.4,
+     "unit": "10^3/uL",
+     "ref": "4.0-11.0"
+    },
+    {
+     "name": "Platelet Count",
+     "value": 212,
+     "unit": "10^3/uL",
+     "ref": "150-410"
+    },
+    {
+     "name": "Fasting Glucose",
+     "value": 112,
+     "unit": "mg/dL",
+     "ref": "70-100"
+    },
+    {
+     "name": "HbA1c",
+     "value": 6.2,
+     "unit": "%",
+     "ref": "4.0-5.6"
+    },
+    {
+     "name": "Total Cholesterol",
+     "value": 221,
+     "unit": "mg/dL",
+     "ref": "0-200"
+    },
+    {
+     "name": "LDL Cholesterol",
+     "value": 141,
+     "unit": "mg/dL",
+     "ref": "0-100"
+    },
+    {
+     "name": "HDL Cholesterol",
+     "value": 41,
+     "unit": "mg/dL",
+     "ref": "40-60"
+    },
+    {
+     "name": "Triglycerides",
+     "value": 175,
+     "unit": "mg/dL",
+     "ref": "0-150"
+    },
+    {
+     "name": "Creatinine",
+     "value": 1.0,
+     "unit": "mg/dL",
+     "ref": "0.7-1.3"
+    },
+    {
+     "name": "TSH",
+     "value": 2.8,
+     "unit": "uIU/mL",
+     "ref": "0.4-4.0"
+    },
+    {
+     "name": "Vitamin D (25-OH)",
+     "value": 31,
+     "unit": "ng/mL",
+     "ref": "30-100"
+    }
+   ]
+  },
+  "BMI.xlsx": {
+   "measurements": [
+    {
+     "date": "2026-01-05",
+     "height_cm": 176,
+     "weight_kg": 84.0,
+     "bmi": 27.1
+    },
+    {
+     "date": "2026-03-02",
+     "height_cm": 176,
+     "weight_kg": 85.2,
+     "bmi": 27.5
+    },
+    {
+     "date": "2026-04-28",
+     "height_cm": 176,
+     "weight_kg": 86.1,
+     "bmi": 27.8
+    },
+    {
+     "date": "2026-06-30",
+     "height_cm": 176,
+     "weight_kg": 84.7,
+     "bmi": 27.3
+    },
+    {
+     "date": "2026-08-25",
+     "height_cm": 176,
+     "weight_kg": 83.5,
+     "bmi": 27.0
+    },
+    {
+     "date": "2026-10-20",
+     "height_cm": 176,
+     "weight_kg": 82.4,
+     "bmi": 26.6
+    }
+   ]
+  }
+ }
+}

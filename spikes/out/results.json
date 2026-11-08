@@ -1,0 +1,116 @@
+{
+ "BMI.xlsx": {
+  "route": "text",
+  "seconds": 104.1,
+  "accuracy": {
+   "expected": 6,
+   "correct": 6,
+   "extra_rows": 0
+  },
+  "mask": {
+   "guard": "pass",
+   "dropped_fields": []
+  }
+ },
+ "R1_text.pdf": {
+  "route": "text",
+  "seconds": 221.7,
+  "accuracy": {
+   "expected": 12,
+   "found": 12,
+   "value_correct": 12,
+   "unit_correct": 12,
+   "ref_contains_truth": 12,
+   "date_ok": true,
+   "misses": []
+  },
+  "identifiers_captured": {
+   "patient_name": false,
+   "patient_id": true,
+   "lab_name": true,
+   "doctor_name": false
+  },
+  "mask": {
+   "guard": "pass",
+   "dropped_fields": [
+    "test_name"
+   ]
+  }
+ },
+ "R2_text.pdf": {
+  "route": "text",
+  "seconds": 227.4,
+  "accuracy": {
+   "expected": 12,
+   "found": 12,
+   "value_correct": 12,
+   "unit_correct": 12,
+   "ref_contains_truth": 12,
+   "date_ok": true,
+   "misses": []
+  },
+  "identifiers_captured": {
+   "patient_name": true,
+   "patient_id": true,
+   "lab_name": false,
+   "doctor_name": false
+  },
+  "mask": {
+   "guard": "pass",
+   "dropped_fields": [
+    "test_name"
+   ]
+  }
+ },
+ "R3_scan.jpg": {
+  "route": "vision",
+  "seconds": 284.2,
+  "accuracy": {
+   "expected": 12,
+   "found": 12,
+   "value_correct": 12,
+   "unit_correct": 10,
+   "ref_contains_truth": 0,
+   "date_ok": true,
+   "misses": []
+  },
+  "identifiers_captured": {
+   "patient_name": false,
+   "patient_id": true,
+   "lab_name": true,
+   "doctor_name": false
+  },
+  "mask": {
+   "guard": "pass",
+   "dropped_fields": [
+    "test_name"
+   ]
+  }
+ },
+ "R4_scan.pdf": {
+  "route": "vision",
+  "seconds": 251.8,
+  "accuracy": {
+   "expected": 12,
+   "found": 12,
+   "value_correct": 12,
+   "unit_correct": 10,
+   "ref_contains_truth": 0,
+   "date_ok": true,
+   "misses": []
+  },
+  "identifiers_captured": {
+   "patient_name": false,
+   "patient_id": true,
+   "lab_name": true,
+   "doctor_name": false
+  },
+  "mask": {
+   "guard": "pass",
+   "dropped_fields": [
+    "test_name"
+   ]
+  }
+ },
+ "_peak_ollama_rss_mb": 50
+}

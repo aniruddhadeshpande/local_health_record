@@ -1,0 +1,41 @@
+{
+ "date": "T0+288d",
+ "measurements": [
+  {
+   "date": "T0+0d",
+   "weight_kg": 84.0,
+   "height_cm": null,
+   "bmi": 27.1
+  },
+  {
+   "date": "T0+56d",
+   "weight_kg": 85.2,
+   "height_cm": null,
+   "bmi": 27.5
+  },
+  {
+   "date": "T0+113d",
+   "weight_kg": 86.1,
+   "height_cm": null,
+   "bmi": 27.8
+  },
+  {
+   "date": "T0+176d",
+   "weight_kg": 84.7,
+   "height_cm": null,
+   "bmi": 27.3
+  },
+  {
+   "date": "T0+232d",
+   "weight_kg": 83.5,
+   "height_cm": null,
+   "bmi": 27.0
+  },
+  {
+   "date": "T0+288d",
+   "weight_kg": 82.4,
+   "height_cm": null,
+   "bmi": 26.6
+  }
+ ]
+}

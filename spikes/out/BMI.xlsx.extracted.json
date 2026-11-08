@@ -1,0 +1,36 @@
+{
+ "measurements": [
+  {
+   "date": "2026-01-05",
+   "weight_kg": 84,
+   "bmi": 27.1
+  },
+  {
+   "date": "2026-03-02",
+   "weight_kg": 85.2,
+   "bmi": 27.5
+  },
+  {
+   "date": "2026-04-28",
+   "weight_kg": 86.1,
+   "bmi": 27.8
+  },
+  {
+   "date": "2026-06-30",
+   "weight_kg": 84.7,
+   "bmi": 27.3
+  },
+  {
+   "date": "2026-08-25",
+   "weight_kg": 83.5,
+   "bmi": 27
+  },
+  {
+   "date": "2026-10-20",
+   "weight_kg": 82.4,
+   "bmi": 26.6
+  }
+ ],
+ "patient_id": "MRN-7731-ZQX",
+ "report_date": "2026-10-20"
+}

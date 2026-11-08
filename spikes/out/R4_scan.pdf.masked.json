@@ -1,0 +1,82 @@
+{
+ "date": "T0+240d",
+ "tests": [
+  {
+   "name": "hemoglobin",
+   "value": 12.6,
+   "unit": "g/dL",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "wbc count",
+   "value": 9.4,
+   "unit": "10^3/uL",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "platelet count",
+   "value": 212.0,
+   "unit": "10^3/uL",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "fasting glucose",
+   "value": 112.0,
+   "unit": "mg/dL",
+   "ref": null,
+   "flag": "H"
+  },
+  {
+   "name": "hba1c",
+   "value": 6.2,
+   "unit": "%",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "total cholesterol",
+   "value": 221.0,
+   "unit": "mg/dL",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "ldl cholesterol",
+   "value": 141.0,
+   "unit": "mg/dL",
+   "ref": null,
+   "flag": "H"
+  },
+  {
+   "name": "hdl cholesterol",
+   "value": 41.0,
+   "unit": "mg/dL",
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "triglycerides",
+   "value": 175.0,
+   "unit": "mg/dL",
+   "ref": null,
+   "flag": "H"
+  },
+  {
+   "name": "creatinine",
+   "value": 1.0,
+   "unit": null,
+   "ref": null,
+   "flag": "L"
+  },
+  {
+   "name": "tsh",
+   "value": 2.8,
+   "unit": "ng/mL",
+   "ref": null,
+   "flag": "L"
+  }
+ ]
+}

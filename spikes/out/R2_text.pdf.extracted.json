@@ -1,0 +1,89 @@
+{
+ "tests": [
+  {
+   "name": "Hemoglobin",
+   "value": "13.1",
+   "unit": "g/dL",
+   "ref_range": "13.0-17.0",
+   "flag": "Altanis method"
+  },
+  {
+   "name": "WBC Count",
+   "value": "8.1",
+   "unit": "10^3/uL",
+   "ref_range": "4.0-11.0"
+  },
+  {
+   "name": "Platelet Count",
+   "value": "230",
+   "unit": "10^3/uL",
+   "ref_range": "150-410"
+  },
+  {
+   "name": "Fasting Glucose",
+   "value": "106",
+   "unit": "mg/dL",
+   "ref_range": "70-100",
+   "flag": "H"
+  },
+  {
+   "name": "HbA1c",
+   "value": "5.9",
+   "unit": "%",
+   "ref_range": "4.0-5.6",
+   "flag": "H"
+  },
+  {
+   "name": "Total Cholesterol",
+   "value": "208",
+   "unit": "mg/dL",
+   "ref_range": "0-200",
+   "flag": "H"
+  },
+  {
+   "name": "LDL Cholesterol",
+   "value": "129",
+   "unit": "mg/dL",
+   "ref_range": "0-100",
+   "flag": "H"
+  },
+  {
+   "name": "HDL Cholesterol",
+   "value": "43",
+   "unit": "mg/dL",
+   "ref_range": "40-60"
+  },
+  {
+   "name": "Triglycerides",
+   "value": "162",
+   "unit": "mg/dL",
+   "ref_range": "0-150",
+   "flag": "H"
+  },
+  {
+   "name": "Creatinine",
+   "value": "1.0",
+   "unit": "mg/dL",
+   "ref_range": "0.7-1.3"
+  },
+  {
+   "name": "TSH",
+   "value": "2.4",
+   "unit": "uIU/mL",
+   "ref_range": "0.4-4.0",
+   "flag": "Brightwell Diagnostics 3rd gen"
+  },
+  {
+   "name": "Vitamin D (25-OH)",
+   "value": "27",
+   "unit": "ng/mL",
+   "ref_range": "30-100",
+   "flag": "L"
+  }
+ ],
+ "patient_name": "Zorvan Quillbeck",
+ "patient_id": "MRN-7731-ZQX",
+ "dob": "14/03/1987",
+ "sample_id": "SMP-61204",
+ "report_date": "2026-05-18"
+}

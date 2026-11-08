@@ -67,8 +67,24 @@ Dates go out only as day offsets from a fixed per-profile anchor (`T0+94d`); neg
 ## D11. Phase-2 vLLM server (not built) — Agreed requirements
 TLS; API key or mTLS; private network or VPN (an IP allowlist alone is not enough); no prompt logging; disk encryption; files deleted after processing; no shared cloud GPU without a data processing agreement. The server sits inside the trust boundary because it sees unmasked files.
 
-## D12. Q2 MedGemma accuracy and hardware — Pending spike
-Needs the user's sample files in `samples/raw/`. Results will go in `spikes/REPORT.md`.
+## D12. Q2 MedGemma accuracy and hardware — Measured (synthetic samples, 2026-11-08)
+Full details are in `spikes/REPORT.md`.
+
+| Route | Values | Units | Ref ranges | Time per page (4-core CPU) |
+|---|---|---|---|---|
+| Text PDF (2 files) | 24/24 | 24/24 | 24/24 | about 225 s |
+| Scan, JPG or image-only PDF (2 files) | 24/24 | 20/24 | **0/24** | about 270 s |
+| BMI Excel (1 file) | 6/6 rows | — | — | 104 s |
+
+- **Memory:** the model uses about 4.8 GB RSS. Minimum is a 4-core CPU with 8 GB RAM (16 GB recommended); a GPU is optional, at about 2.3–3 GB VRAM.
+- **Leaks:** 0 fake-identifier hits in the masked output.
+- **Decisions taken from the spike, all refining existing tickets with no spec change:**
+  - H/L flags are always computed locally; the model's flags are ignored because it made them up on scans.
+  - Scans take units and reference ranges from a local reference table and are flagged "check this".
+  - The test-name list needs aliases (one test was dropped wrongly).
+  - Known identifiers are seeded from the profile plus a sweep of labelled header fields, because MedGemma often leaves `patient_name` and `doctor_name` empty.
+  - MedGemma's output is kept short to save CPU time.
+- **Caveat:** synthetic layouts only. Re-run on real de-identified samples before the demo.
 
 ## D13. Phase 1 scope extras — TM decision 2026-11-08
 - **In scope:**
